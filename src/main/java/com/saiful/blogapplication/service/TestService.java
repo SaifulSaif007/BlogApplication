@@ -7,8 +7,6 @@ import com.google.firebase.cloud.FirestoreClient;
 import com.saiful.blogapplication.model.Test;
 import org.springframework.stereotype.Service;
 
-import java.util.concurrent.ExecutionException;
-
 @Service
 public class TestService {
     private static final String COLLECTION_NAME = "Test";
