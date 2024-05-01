@@ -13,11 +13,17 @@ java {
 
 repositories {
 	mavenCentral()
+	google()
 }
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+
+	implementation 'com.google.firebase:firebase-admin:8.0.1'
+
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
+	compileOnly group: 'org.projectlombok', name: 'lombok', version: '0.11.0'
+
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 

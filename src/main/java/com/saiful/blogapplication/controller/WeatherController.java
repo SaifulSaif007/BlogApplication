@@ -5,10 +5,10 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("user")
+@RequestMapping("weather")
 public class WeatherController {
 
-    @RequestMapping(value = "/weather", method = RequestMethod.GET)
+    @RequestMapping(value = "", method = RequestMethod.GET)
     public String WeatherValue() {
         return "Weather : 35 celcius";
     }
